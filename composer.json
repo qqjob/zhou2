@@ -13,7 +13,8 @@
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
-        "laravel/tinker": "^2.5"
+        "laravel/tinker": "^2.5",
+        "test/zhou": "dev-master"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -31,6 +32,16 @@
     "extra": {
         "laravel": {
             "dont-discover": []
+        }
+    },
+    "repositories": {
+        "0": {
+            "type": "git",
+            "url": "https://github.com/qqjob/zhou.git"
+        },
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
         }
     },
     "autoload": {
